@@ -1,0 +1,1 @@
+JSON.stringfy(obj1)===JSON.stringify(obj2)
