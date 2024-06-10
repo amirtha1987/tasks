@@ -1,0 +1,38 @@
+html{
+    background:#FAFAFA;
+}
+body{
+    margin:0px;
+    padding:0px;
+
+}
+.card{
+    background:#ffffff;
+    width:50%;
+    height:500px;
+    border:1px solid 
+}
+   
+   
+   
+   
+   #square{
+        height:100px;
+        width:100px;
+    }
+    .square{
+        height:100px;
+        width:100px;
+
+    }
+    .green{
+        background: yellowgreen;
+
+    }
+    .blue{
+        background: lightblue;
+    }
+    .red{
+        background: lightcoral;
+
+    }
