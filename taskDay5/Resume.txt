@@ -1,0 +1,48 @@
+let myResume={
+    "basics": {
+      "name": "AMIRTHAVALLI.M",
+      "email": "amirtha.dit@gmail.com",
+      "phone": 97393000358,
+      "degree": "B.E",
+      "location": {
+        "address": "50, 1st main 6th cross",
+        "postalCode": 560032,
+        "city": "Bangalore",
+        "state": "karnataka",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          "github":"https://github.com/amirtha1987"
+        }
+      ]
+    },
+    "education": [
+      {
+        "institution": "kings college of engineering",
+        "department": "Computerscience",
+        "studyType": "fulltime",
+        "batch start year": 2008,
+        "batch end year": 2011,
+        "percentage": 78.98,
+      }
+    ],
+    "skills": [      {
+        "name": "python,javascript",
+        "level": "beginner",}
+    ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,English,hindi,kannada",
+      }
+    ],
+    "interests": [
+      {
+        "name": "surfing internet,painting,drawing",
+      }
+    ]
+  }
+  console.log(myResume);
+  
