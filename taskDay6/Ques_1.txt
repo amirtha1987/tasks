@@ -1,0 +1,24 @@
+class Movie {
+  constructor(title = "", studio = "", rating = "PG") {
+    this.title = title;
+    this.studio = studio;
+    this.rating = rating;
+  }
+
+  getPG(movies = [Movie]) {
+    var filteredArray = [];
+    movies.forEach((movie) => {
+      if (movie.rating === "PG") {
+        filteredArray.push(movie);
+      }
+    });
+    return filteredArray;
+  }
+}
+
+const M1 = new Movie("", "EROS");
+const M2 = new Movie("M2", "EROS");
+const M3 = new Movie("M3", "EROS", "PG13");
+const M4 = new Movie("M4", "EROS", "R");
+
+console.log(SPD1.getPG([M1, M2, M3, M4]));
