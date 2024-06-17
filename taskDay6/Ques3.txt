@@ -1,0 +1,8 @@
+class person{
+    constructor(name,email_id,mobile_no,Qualification,address)
+    this.name = name;
+    this.email_id = email_id;
+    this.mobile_no = mobile_no;
+    this.qualification = qualification;
+    this.address = address;
+}
