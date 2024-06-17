@@ -1,0 +1,29 @@
+class Circle
+constructor(radius="",color=""){
+    this.radius = radius;
+    this.color = color;
+}
+changeradius(radius = ""){
+    this.radius = radius;
+}
+
+changecolor(color = ""){
+    this.color = color;
+}
+
+get radius(){
+    return this.radius;
+}
+
+set radius(){
+    this.radius = radius;
+}
+
+get color(){
+   return this.color;
+}
+
+set color(){
+  this.color = color;
+}
+
