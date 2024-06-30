@@ -1,0 +1,13 @@
+.flex1 {
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.flex2 {
+  display: inline-block;
+  flex-direction: column;
+}
+.flex3 {
+  display: inline-block;
+  flex-direction: column;
+}
